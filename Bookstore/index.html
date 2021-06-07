@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/slyder.css">
+    <title>Book Store</title>
+</head>
+
+<body>
+    <header>
+        <div class="back_img">
+            <div class="container">
+
+
+                <div class="top_menu ">
+
+                    <ul class="ul_li">
+                        <li>
+                            <a href="#" class="bg-sr">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="bg-sr">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="bg-sr">Books</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="bg-sr">Blog</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="bg-sr">Contact</a>
+                        <li>
+                            <h3 class="cen_text">
+                                <i class="fas fa-book-open"></i>
+                                <a href="#">Book-Store</a>
+                                <i class="fas fa-book-open"></i>
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="#" class="bg-sr">
+                                <i class="fas fa-user-circle"></i>
+                                <span>Log in</span>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#" class="bg-sr">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#" class="bg-sr">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="bg-sr">
+                                <i class="fab fa-telegram "></i>
+                            </a>
+                        </li>
+                        <li class="posit">
+                            <a href="#" onclick="textMsg()" class="bg-sr"><i class="fas fa-cart-arrow-down"></i></a>
+                            <div id="msg">
+                                <ul class="ul_list">
+                                </ul>
+                                <div class="shopcard_total">
+                                    <p>Total</p>
+                                    <span>$ 0</span>
+                                </div>
+                                <p>
+                                    <button class="btn_call2">Check Out</button>
+                                </p>
+                                <div id="close">
+                                    <a href="javascript:closeMsg()">
+                                        <button id="close_btn"><i class="fas fa-times"></i></button>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <div class="center_menu">
+                    <div class="container">
+                        <div class="center_main">
+                            <p class="center_text1">THE AWARD-WINNING BOOK BY JOEL‏ BROWN </p>
+                            <p class="center_text2">The Real Story</p>
+                            <button type="button" class="btn btn-outline-secondary">SHOP NOW</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nijnee_menu">
+            <div class="container">
+
+                <p class="new_arr block_icon">
+                    <i class="fas fa-fan"></i>
+                    New Arrivals
+                    <i class="fas fa-fan"></i>
+                </p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, incidunt fuga dolorum, placeat
+                    necessitatibus, officia totam earum deleniti ratione blanditiis quidem! Provident et odio ipsum amet
+                    temporibus ullam quaerat cupiditate.</p>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main_top">
+            <div class="container">
+                <div class="main_filter">
+                    
+                    <form action="#" name="search" class="search_box">
+                        <input type="text" class="search_txt" placeholder="Search your book...">
+                        <a href="?search=#" class="search_btn ">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </form>
+                    
+                    
+
+                </div>
+                <div>
+                    <button type="button" class="btn btn-success">Recomendation</button>
+                    <button type="button" class="btn btn-danger">Popular</button>
+                    <button type="button" class="btn btn-warning">Old Edition</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="body_block">
+
+                <div class="list_product">
+
+                    <div class="product">
+
+                        <div class="img">
+                            <div class="tooltip bg_orange">
+                                <span>New</span>
+                            </div>
+
+                            <img src="./img/001.PNG" alt="img1">
+
+                            <div class="desc_img">
+                                <div class="desc">
+                                    <p class="title">Quick View</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="body_product">
+
+                            <p class="title"><a href="#">Dianna Vision</a></p>
+
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="price">16</span>
+                            </div>
+                            <button class="button1">Add To Card</button>
+
+                        </div>
+                    </div>
+                    <div class="product">
+
+                        <div class="img">
+                            <div class="tooltip bg_orange">
+                                <span>New</span>
+                            </div>
+
+                            <img src="./img/002.PNG" alt="img1">
+
+                            <div class="desc_img">
+                                <div class="desc">
+                                    <p class="title">Quick View</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="body_product">
+
+                            <p class="title"><a href="#">Final Coundown</a></p>
+
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="price">16</span>
+                            </div>
+                            <button class="button1">Add To Card</button>
+
+                        </div>
+                    </div>
+                    <div class="product">
+
+                        <div class="img">
+                            <div class="tooltip bg_orange">
+                                <span>New</span>
+                            </div>
+
+                            <img src="./img/003.PNG" alt="img1">
+
+                            <div class="desc_img">
+                                <div class="desc">
+                                    <p class="title">Quick View</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="body_product">
+
+                            <p class="title"><a href="#">Beyond The fog</a></p>
+
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="price">16</span>
+                            </div>
+                            <button class="button1">Add To Card</button>
+
+                        </div>
+                    </div>
+                    <div class="product">
+
+                        <div class="img">
+                            <div class="tooltip bg_orange">
+                                <span>New</span>
+                            </div>
+
+                            <img src="./img/002.PNG" alt="img1">
+
+                            <div class="desc_img">
+                                <div class="desc">
+                                    <p class="title">Quick View</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="body_product">
+
+                            <p class="title"><a href="#">Final Coundown</a></p>
+
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="price">16</span>
+                            </div>
+                            <button class="button1">Add To Card</button>
+
+                        </div>
+                    </div>
+                    <div class="product">
+
+                        <div class="img">
+                            <div class="tooltip bg_orange">
+                                <span>New</span>
+                            </div>
+
+                            <img src="./img/001.PNG" alt="img1">
+
+                            <div class="desc_img">
+                                <div class="desc">
+                                    <p class="title">Quick View</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="body_product">
+
+                            <p class="title"><a href="#">Beyond The fog</a></p>
+
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="price">16</span>
+                            </div>
+                            <button class="button1">Add To Card</button>
+
+                        </div>
+                    </div>
+                    <div class="product">
+
+                        <div class="img">
+                            <div class="tooltip bg_orange">
+                                <span>New</span>
+                            </div>
+
+                            <img src="./img/003.PNG" alt="img1">
+
+                            <div class="desc_img">
+                                <div class="desc">
+                                    <p class="title">Quick View</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="body_product">
+
+                            <p class="title"><a href="#">Dianna Vision</a></p>
+
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="price">16</span>
+                            </div>
+                            <button class="button1">Add To Card</button>
+
+                        </div>
+                    </div>
+                    <div class="product">
+
+                        <div class="img">
+                            <div class="tooltip bg_orange">
+                                <span>New</span>
+                            </div>
+
+                            <img src="./img/001.PNG" alt="img1">
+
+                            <div class="desc_img">
+                                <div class="desc">
+                                    <p class="title">Quick View</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="body_product">
+
+                            <p class="title"><a href="#">Final Coundown</a></p>
+
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="price">16</span>
+                            </div>
+                            <button class="button1">Add To Card</button>
+
+                        </div>
+                    </div>
+                    <div class="product">
+
+                        <div class="img">
+                            <div class="tooltip bg_orange">
+                                <span>New</span>
+                            </div>
+
+                            <img src="./img/002.PNG" alt="img1">
+
+                            <div class="desc_img">
+                                <div class="desc">
+                                    <p class="title">Quick View</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="body_product">
+
+                            <p class="title"><a href="#">Beyond The fog</a></p>
+
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="price">16</span>
+                            </div>
+                            <button class="button1">Add To Card</button>
+
+                        </div>
+                    </div>
+                    <div class="product">
+
+                        <div class="img">
+                            <div class="tooltip bg_orange">
+                                <span>New</span>
+                            </div>
+
+                            <img src="./img/003.PNG" alt="img1">
+
+                            <div class="desc_img">
+                                <div class="desc">
+                                    <p class="title">Quick View</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="body_product">
+
+                            <p class="title"><a href="#">Beyond The fog</a></p>
+
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="price">16</span>
+                            </div>
+                            <button class="button1">Add To Card</button>
+
+                        </div>
+                    </div>
+                    <div class="product">
+
+                        <div class="img">
+                            <div class="tooltip bg_orange">
+                                <span>New</span>
+                            </div>
+
+                            <img src="./img/001.PNG" alt="img1">
+
+                            <div class="desc_img">
+                                <div class="desc">
+                                    <p class="title">Quick View</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="body_product">
+
+                            <p class="title"><a href="#">Dianna Vision</a></p>
+
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="price">16</span>
+                            </div>
+                            <button class="button1">Add To Card</button>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <section class="container">
+            <div class="myslider">
+                <!-- Разметка слайдера -->
+                <div class="slider">
+                    <div class="slider__wrapper">
+                        <div class="slider__items">
+                            <div class="slider__item">
+                                <span class="slider__item_inner">
+                                    <span class="slider__item_img">
+                                        <img class="slider__item_photo" src="./img/001.PNG" alt="">
+                                    </span>
+                                    <span class="slider__item_testimonial">
+                                        <span class="slider__item_name">The ancient secrets of green tea</span>
+                                        <span class="slider__item_post">Kyrgyzstan , 2021</span>
+                                        <span class="slider__item_text">
+                                            Do you have a design in mind for your blog? Whether you prefer a trendy
+                                            postcard look or you’re going for a more editorial style blog - there’s a
+                                            stunning layout for everyone.
+                                        </span>
+                                        <span class="slider__item_action">
+                                            <a class="btn" href="#">Shop Now <span>16$</span></a>
+                                        </span>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="slider__item">
+                                <span class="slider__item_inner">
+                                    <span class="slider__item_img">
+                                        <img class="slider__item_photo" src="./img/002.PNG" alt="">
+                                    </span>
+                                    <span class="slider__item_testimonial">
+                                        <span class="slider__item_name">Chamonile Tea</span>
+                                        <span class="slider__item_post">Kyrgyzstan, 2021</span>
+                                        <span class="slider__item_text">
+                                            Do you have a design in mind for your blog? Whether you prefer a trendy
+                                            postcard look or you’re going for a more editorial style blog - there’s a
+                                            stunning layout for everyone.
+                                        </span>
+                                        <span class="slider__item_action">
+                                            <a class="btn" href="#">Shop Now <span>22$</span></a>
+                                        </span>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="slider__item">
+                                <span class="slider__item_inner">
+                                    <span class="slider__item_img">
+                                        <img class="slider__item_photo" src="./img/003.PNG" alt="">
+                                    </span>
+                                    <span class="slider__item_testimonial">
+                                        <span class="slider__item_name">Finding your cup of tea</span>
+                                        <span class="slider__item_post">Bishkek, 2021</span>
+                                        <span class="slider__item_text">
+                                            Do you have a design in mind for your blog? Whether you prefer a trendy
+                                            postcard look or you’re going for a more editorial style blog - there’s a
+                                            stunning layout for everyone.
+                                        </span>
+                                        <span class="slider__item_action">
+                                            <a class="btn" href="#">Shop Now <span>12$</span></a>
+                                        </span>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                    <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+                </div>
+            </div>
+        </section>
+        <div class="back_main">
+            <div class="container">
+                <div class="bottom_main">
+
+                    <h2 class="main_text">Read Our Blog</h2>
+
+                </div>
+            </div>
+        </div>
+        <section>
+            <div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="footer__s">
+            <div class="container">
+                <div class="row">
+                    <div class="col order-first">
+                        <div class="footer_title br-bt">
+                            <span>Get to Know</span>
+                            <p>Bloom's Tea Better</p>
+                        </div>
+
+                        <ul class="footer__list">
+                            <li>
+                                <i class="fas fa-shopping-cart"></i>
+                                <a href="#">Shop</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-mug-hot"></i>
+                                <a href="#">Book</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-eject"></i>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-blog"></i>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-square-alt"></i>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marked-alt"></i>
+                                <a href="#">Visit Our Stores</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-volume"></i>
+                                <a href="tel:+996505006666">Customer service: +9965050066666 </a>
+                            </li>
+                            <li>
+                                <i class="fas fa-mail-bulk"></i>
+                                <a href="mailto:bookstore@gmail.com">Email: booksrote@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <div class="footer_title">
+                            <p>Help</p>
+                        </div>
+                        <ul class="footer__list">
+                            <li>
+                                <i class="fab fa-qq"></i>
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-exchange-alt"></i>
+                                <a href="#">Shipping & Returns</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-gem"></i>
+                                <a href="#">Store Policy</a>
+                            </li>
+                            <li>
+                                <i class="fab fa-cc-amazon-pay"></i>
+                                <a href="#">Payment Methods</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col order-last">
+                        <div class="footer_title">
+                            <p>Follow US</p>
+                        </div>
+                        <ul class="footer__list">
+                            <li>
+                                <i class="fab fa-facebook-square"></i>
+                                <a href="#">Facebook</a>
+                            </li>
+                            <li>
+                                <i class="fab fa-instagram"></i>
+                                <a href="#">Instagram</a>
+                            </li>
+                            <li>
+                                <i class="fab fa-telegram"></i>
+                                <a href="#">Telegram</a>
+                            </li>
+
+                        </ul>
+                        <div class="footer_center">
+                            <form>
+                                <input type="mail" class="input_footer" placeholder="Enteryour email here...">
+                                <button type="submit" class="btn btn-dark">Subscribe Now</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+        <div class="container">
+            <div class="footer_bottom">
+                <div>
+                    <p>©2021 by Book Store Proudly created with DS</p>
+                </div>
+                <div>
+                    <p>
+                        <i class="fas fa-arrow-up"></i>
+                        <a href="#">Back to top</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
